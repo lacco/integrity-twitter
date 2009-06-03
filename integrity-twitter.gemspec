@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{Easily let Integrity tweet after each build}
   s.email = %q{chris@justhack.com}
   s.extra_rdoc_files = ["lib/notifier/config.haml", "lib/notifier/integrity_twitter.rb", "README.markdown"]
-  s.files = ["integrity-twitter.gemspec", "lib/notifier/config.haml", "lib/notifier/integrity_twitter.rb", "Manifest", "Rakefile", "README.markdown", "spec/integrity_twitter_spec.rb", "spec/spec_helper.rb"]
+  s.files = ["integrity-twitter.gemspec", "lib/notifier/config.haml", "lib/notifier/integrity_twitter.rb", "Rakefile", "README.markdown", "spec/integrity_twitter_spec.rb", "spec/spec_helper.rb"]
   s.homepage = %q{http://integrityapp.com}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Integrity-twitter", "--main", "README.markdown"]
   s.require_paths = ["lib"]
