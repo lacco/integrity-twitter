@@ -31,5 +31,7 @@ module Integrity
         commit.successful? ? 'GREEN' : 'FAIL!'
       end
     end
+    
+    register IntegrityTwitter
   end
 end
