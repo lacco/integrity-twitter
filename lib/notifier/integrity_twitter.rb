@@ -11,8 +11,11 @@ module Integrity
       end
 
       def deliver!
-        @tweet = Twitter::Base.new(@config["email"], @config["pass"])
-        @tweet.post(short_message)
+        p @config["email"]
+        p @config["pass"]
+        httpauth = Twitter::HTTPAuth.new(@config["email"], @config["pass"])
+        @tweet = Twitter::Base.new(httpauth)
+        @tweet.update(short_message)
       end
       
     end
